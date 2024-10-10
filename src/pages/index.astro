@@ -11,6 +11,12 @@ import PricingSection from "@components/sections/pricing/PricingSection.astro";
 import FAQ from "@components/sections/misc/FAQ.astro";
 import AnnouncementBanner from "@components/ui/banners/AnnouncementBanner.astro";
 import heroImage from "@images/hero-image.avif";
+import tarjeta from 'src/assets/images/tarjeta.png';
+import appweb from 'src/assets/images/appweb.jpg';
+import landing from 'src/assets/images/landing.jpg';
+import tarjeta2 from 'src/assets/images/tarjeta2.png';
+import ubicacionmaps from 'src/assets/images/ubicacionmaps.png'
+import maps from 'src/assets/images/maps.jpg'
 import faqs from "@data/faqs.json";
 import features from "@data/features.json";
 import pricing from "@data/pricing.json";
@@ -35,68 +41,76 @@ const avatarSrcs: Array<string> = [
   />
 
   <HeroSection
-    title=`Equip Your Projects with <span
-        class="text-yellow-500 dark:text-yellow-400">ScrewFast</span>`
-    subTitle="Top-quality hardware tools and expert construction services for every project need."
-    primaryBtn="Start Exploring"
+    title=`Incrementa la visibilidad de tu marca con  <span
+        class="text-yellow-500 dark:text-yellow-400">SoftCreateMarketing</span>`
+    subTitle="Expertos en exponenciar tu marca a nivel mundial. "
+    primaryBtn="Exploremos"
     primaryBtnURL="/products"
-    secondaryBtn="Contact Sales Team"
+    secondaryBtn="Contacta a nuestro equipo"
     secondaryBtnURL="/contact"
-    withReview={true}
+    withReview={false}
     avatars={avatarSrcs}
     rating=`<span class="font-bold">4.8</span> / 5`
     starCount={4}
     reviews=`From Over <span class="font-bold">12.8k</span> Reviews`
-    src={heroImage}
-    alt="Stack of ScrewFast product boxes containing assorted hardware tools"
+    src={tarjeta}
+    alt="Tegetas de Presentacion"
   />
 
   <ClientsSection
-    title="Trusted by Industry Leaders"
-    subTitle="Experience the reliability chosen by industry giants."
+    title="Nuestros Clientes nos Respaldan"
+    subTitle="Trabajamos con grandes y pequeñas empresas"
   />
 
   <FeaturesGeneral
-    title="Meeting Industry Demands"
-    subTitle="At ScrewFast, we tackle the unique challenges encountered in the hardware and construction sectors. From cutting-edge tools to expert services, we're dedicated to helping you overcome obstacles and achieve your goals."
-    src={featureImage}
+    title="Conocemos la demanda de la industria"
+    subTitle="Cada de uno nuestros servicios han sido generados de acuerdo a la demanda del mercado de las empresas que invierten en su crecimiento."
+    src={ubicacionmaps}
     alt="ScrewFast products in floating boxes"
     features={features}
   />
 
   <FeaturesNavs
-    title=`Customize <span class="text-yellow-500 dark:text-yellow-400">ScrewFast</span>'s offerings to perfectly suit your hardware and construction needs.`
+    title=`Servicios <span class="text-yellow-500 dark:text-yellow-400">SoftCreateMarketing</span> mas requeridos.`
     tabs={[
       {
-        heading: "Cutting-Edge Tools",
+        heading: "Targetas de presentacion digitales y fisicas",
         content:
-          "Empower your projects with ScrewFast's cutting-edge tools. Experience enhanced efficiency in construction management with our sophisticated automated solutions.",
+          "Las tarjetas de presentacion digitales son la nueva forma de ofrecer los servicios ya sea de una empresa o de un profesional.",
         svg: "tools",
-        src: tools,
+        src: tarjeta2,
         alt: "Yellow and black heavy equipment on brown grass field",
         first: true,
       },
       {
-        heading: "Intuitive Dashboards",
+        heading: "Landing Pages",
         content:
-          "Navigate with ease using ScrewFast's intuitive dashboards. Set up and oversee your projects seamlessly, with user-friendly interfaces designed for quick and effective workflow management.",
+          "Paginas web estaticas, requeridas en cada empresa considerada una carta de presentacion a sus futuros clientes.",
         svg: "dashboard",
-        src: dashboard,
+        src: landing,
         alt: "A screenshot or graphic representation of the intuitive dashboard",
         second: true,
       },
       {
-        heading: "Robust Features",
+        heading: "Aplicaciones web",
         content:
-          "Minimize complexity, maximize productivity. ScrewFast's robust features are engineered to streamline your construction process, delivering results that stand out for their excellence.",
+          "Damos soluciones a tus servicios por medio de una aplicacion web.",
         svg: "house",
-        src: construction,
+        src: appweb,
+        alt: "Gray metal building frame near tower crane during daytime",
+      },
+       {
+        heading: "Posicionamiento en Google Maps",
+        content:
+          "Te posicionamos en google maps para que pueda ser encontrada tu ubicacion por medio de plataformas como didi y uber.",
+        svg: "house",
+        src: maps,
         alt: "Gray metal building frame near tower crane during daytime",
       },
     ]}
   />
 
-  <TestimonialsSection
+  <!-- <TestimonialsSection
     title="Fast-Track Your Projects"
     subTitle="At ScrewFast, we ensure a swift start with instant account setup. Experience the speed of construction redefined."
     ;
@@ -131,15 +145,15 @@ const avatarSrcs: Array<string> = [
         description: "quicker assembly using innovative fastening solutions",
       },
     ]}
-  />
+  /> -->
 
   <PricingSection pricing={pricing} />
 
-  <FAQ title="Frequently<br />asked questions" faqs={faqs} />
+  <!-- <FAQ title="Frequently<br />asked questions" faqs={faqs} /> -->
 
   <HeroSectionAlt
-    title="Let's Build Together"
-    subTitle="ScrewFast is an open-source template, meticulously crafted with Astro, Tailwind CSS, and Preline UI frameworks."
-    url="https://github.com/mearashadowfax/ScrewFast"
+    title="Trabajemos Juntos"
+    subTitle="Mejorar el desarollo de tu empresa depende de ti."
+    url="https://wa.me/5217712060333"
   />
 </MainLayout>

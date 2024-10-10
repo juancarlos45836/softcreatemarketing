@@ -1,38 +1,35 @@
 {
-  "title": "Simple, Transparent Pricing",
-  "subTitle": "Boost efficiency with ScrewFast's clear, value-driven plans.",
-  "badge": "Best value",
-  "thirdOption": "Enterprise Solutions?",
-  "btnText": "Get a Custom Quote",
-
+  "title": "Ofertas de los Servicios",
+  "subTitle": "El valor de los servicion depende de la cotizacion contactate con un asesor.",
+  "badge": "Mejor Oferta",
+  "thirdOption": "Obten mas informacion?",
+  "btnText": "Contacta a un Asesor",
   "starterKit": {
-    "name": "Starter Kit",
-    "description": "Best option for DIY projects",
-    "price": "49",
-    "cents": ".00",
-    "billingFrequency": "USD / monthly",
+    "name": "Descuentos en Paquetes",
+    "description": "Obten un descuento mayor contratando varios servicios",
+    "price": "10%",
+    "cents": "",
+    "billingFrequency": "",
     "features": [
-      "Key hardware tools",
-      "Access to guides & tutorials",
-      "Standard support"
+      "Mas de un servicio",
+      "Actualizaciones continuas",
+      "Soporte anual"
     ],
-    "purchaseBtnTitle": "Get the Starter Kit",
+    "purchaseBtnTitle": "CONTACTANOS",
     "purchaseLink": "#"
   },
-
   "professionalToolbox": {
-    "name": "Professional Toolbox",
-    "description": "Best for large scale uses",
-    "price": "89",
-    "cents": ".00",
-    "billingFrequency": "USD / monthly",
+    "name": "Compras Premium",
+    "description": "Servicios premium",
+    "price": "30%",
+    "cents": "",
+    "billingFrequency": "",
     "features": [
-      "Premium tool selection",
-      "Priority support",
-      "Exclusive content & deals",
-      "Bulk order discounts"
+      "Matenimiento 1 año",
+      "Paquetes de mas de 3 servicios",
+      "Asesoria exclusiva"
     ],
-    "purchaseBtnTitle": "Get the Professional Toolbox",
-    "purchaseLink": "#"
+    "purchaseBtnTitle": "CONTACTANOS",
+    "purchaseLink": ""
   }
 }
